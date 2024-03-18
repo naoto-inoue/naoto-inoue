@@ -36,3 +36,7 @@ The following packages were automatically installed and are no longer required:
   docker-scan-plugin libnvidia-common-515 nsight-compute-2022.4.0
 Use 'sudo apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+
+nvidia@hanakawa:~/Desktop/VM_License/Linux$ bash lmutil lmhostid -o vm_hostid.txt
+lmutil: lmutil: cannot execute binary file
+
