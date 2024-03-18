@@ -1,0 +1,2 @@
+lmutil - Copyright (c) 1989-2022 Flexera. All Rights Reserved.
+The FlexNet host ID of this machine is "683e269c8ee8"
