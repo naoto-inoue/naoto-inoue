@@ -40,3 +40,6 @@ Use 'sudo apt autoremove' to remove them.
 nvidia@hanakawa:~/Desktop/VM_License/Linux$ bash lmutil lmhostid -o vm_hostid.txt
 lmutil: lmutil: cannot execute binary file
 
+nvidia@hanakawa:~/Desktop/VM_License/Linux$ file ./lmutil 
+./lmutil: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-lsb-x86-64.so.3, for GNU/Linux 2.6.18, stripped
+
