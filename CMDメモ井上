@@ -1,0 +1,8 @@
+READMEがある場所。rosbagをテストするとき、まずここを開く。
+~/cidas/catkin_ws/src/XR5F_CIDAS/csa_and_csa_intersection
+
+ターミナルのタブ名を明示的に変更したい場合
+echo -en "\033]0;TabName\a"
+
+vimの編集モードから抜ける方法
+:を押してから、q!と入力
