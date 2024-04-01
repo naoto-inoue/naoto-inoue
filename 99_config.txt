@@ -1,0 +1,22 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enxf8e43bbcca72:
+      dhcp4: false
+      dhcp6: false
+      addresses: [192.168.1.131/24]
+      gateway4: 192.168.1.252
+      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4]
+        
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp4s0:
+      dhcp4: false
+      dhcp6: false
+      addresses: [192.168.1.131/24]
+      gateway4: 192.168.1.252　　　　　←ゲートウェイアドレスを記述する      nameservers:
+        addresses: [8.8.8.8, 8.8.4.4]　←DNSサーバーを記述する
