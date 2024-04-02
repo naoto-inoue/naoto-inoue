@@ -1,8 +1,36 @@
-$ sudo apt install -y lsb-core ksh tcsh
-$ sudo dpkg-reconfigure dash
-$ sudo dpkg --add-architecture i386
-$ sudo apt-get update
-$ sudo apt install -y libx11-6:i386 libncurses5:i386
+14:52:54 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 14:52:54 JST
+14:52:54 (lmgrd) SLOG: Summary LOG statistics is enabled.
+14:52:54 (lmgrd) The license server manager (lmgrd) running as root:
+14:52:54 (lmgrd)        This is a potential security problem
+14:52:54 (lmgrd)        and is not recommended.
+14:52:54 (lmgrd) FlexNet Licensing (v11.14.1.0 build 194335 x64_lsb) started on hanakawa.co.jp (linux) (4/2/2024)
+14:52:54 (lmgrd) Copyright (c) 1988-2016 Flexera Software LLC. All Rights Reserved.
+14:52:54 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+14:52:54 (lmgrd) License file(s): /usr/local/flexlm/licenses/license.dat
+14:52:54 (lmgrd) lmgrd tcp-port 5280
+14:52:54 (lmgrd) (@lmgrd-SLOG@) ===============================================
+14:52:54 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+14:52:54 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Apr 02 2024 14:52:54 JST
+14:52:54 (lmgrd) (@lmgrd-SLOG@) PID: 9226
+14:52:54 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.14.1.0 build 194335 x64_lsb ( build 194335 (ipv6))
+14:52:54 (lmgrd) (@lmgrd-SLOG@)
+14:52:54 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+14:52:54 (lmgrd) (@lmgrd-SLOG@) Listening port: 5280
+14:52:54 (lmgrd) (@lmgrd-SLOG@)
+14:52:54 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+14:52:54 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+14:52:54 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -z -c /opt/ftx/License/LCU1803/honda_cadence.lic -l /var/log/ftx/cadence.log
+14:52:54 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /usr/local/flexlm/licenses/license.dat
+14:52:54 (lmgrd) (@lmgrd-SLOG@) ===============================================
+14:52:54 (lmgrd) Starting vendor daemons ...
+14:52:54 (lmgrd) Started cdslmd (internet tcp_port 46653 pid 9227)
+14:52:54 (cdslmd) FlexNet Licensing version v11.13.1.3 build 176483 x64_lsb
+14:52:54 (cdslmd) lmgrd version 11.14, cdslmd version 11.13
+
+14:52:54 (cdslmd) SLOG: Summary LOG statistics is enabled.
+14:52:54 (cdslmd) SLOG: FNPLS-INTERNAL-CKPT1
+14:52:55 (cdslmd) SLOG: VM Status: 0
+14:52:55 (cdslmd) SLOG: FNPLS-INTERNAL-CKPT2
 
 
 
