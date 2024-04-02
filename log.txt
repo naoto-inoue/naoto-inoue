@@ -1,15 +1,16 @@
-[Unit]
-Descriiption=Foretify License server daemon
-After=syslog.target
-After=network.target
+14:39:48 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 14:39:48 JST
+14:39:48 (lmgrd) SLOG: Summary LOG statistics is enabled.
+14:39:48 (lmgrd) The license server manager (lmgrd) running as root:
+14:39:48 (lmgrd)        This is a potential security problem
+14:39:48 (lmgrd)        and is not recommended.
+14:39:48 (lmgrd) license manager: can't initialize:Cannot find license file.
+14:39:48 (lmgrd) The license files (or license server system network addresses) attempted are
+14:39:48 (lmgrd) listed below.  Use LM_LICENSE_FILE to use a different license file,
+14:39:48 (lmgrd) or contact your software provider for a license file.
+14:39:48 (lmgrd) Filename: "/usr/local/flexlm/licenses/license.dat"
+14:39:48 (lmgrd) License Path: "/usr/local/flexlm/licenses/license.dat"
+14:39:48 (lmgrd) FlexNet Licensing error:-1,359
+14:39:48 (lmgrd) System Error:2 No such file or directory
+14:39:48 (lmgrd) Using license file "/usr/local/flexlm/licenses/license.dat"
 
-[Service]
-Type=simple
-ExecStart=/opt/ftx/License/LCU1803/tools.lnx86/bin/64bit/lmgrd -z -c /opt/ftx/License/LCU1803/honda_cadence.lic -l /var/log/ftx/cadence.log
-SuccessExitStatus=15
-Restart=always
-RestartSec=30s
-
-[Install]
-WantedBy=multi-user.target
 
