@@ -1,15 +1,37 @@
-nvidia@hanakawa:~$ sudo systemctl status foretify_license.service
-● foretify_license.service - Foretify Manager License server daemon
-     Loaded: loaded (/lib/systemd/system/foretify_license.service; enabled; vendor preset: enabled)
-     Active: active (running) since Tue 2024-04-02 17:02:16 JST; 2min 37s ago
-   Main PID: 5374 (lmgrd)
-      Tasks: 8 (limit: 18807)
-     Memory: 1.8M
-     CGroup: /system.slice/foretify_license.service
-             ├─5374 /opt/ftx/License/FManager_lic_server/lmgrd -z -c /opt/ftx/License/honda.2024.apr.30.lic -l /var/log/ftx/foretify_license.log
-             └─5376 foretlx -T hanakawa.co.jp 11.18 7 -c :/opt/ftx/License/honda.2024.apr.30.lic: -srv 7WA3oEFEK064cWt0m6AMMu8hqhRF5NtmKb7XvI1bjCoiHiT2C2bAifzI237CD19 --lmgrd_start 660bbb88 -vdrestart 0>
+17:07:48 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 17:07:48 JST
+17:07:48 (lmgrd) SLOG: Summary LOG statistics is enabled.
+17:07:48 (lmgrd) The license server manager (lmgrd) running as root:
+17:07:48 (lmgrd)        This is a potential security problem
+17:07:48 (lmgrd)        and is not recommended.
+17:07:48 (lmgrd) FlexNet Licensing (v11.18.2.0 build 281478 x64_lsb) started on hanakawa.co.jp (linux) (4/2/2024)
+17:07:48 (lmgrd) Copyright (c) 1988-2021 Flexera. All Rights Reserved.
+17:07:48 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+17:07:48 (lmgrd) License file(s): /opt/ftx/License/honda.2024.apr.30.lic
+17:07:48 (lmgrd) lmgrd tcp-port 27001
+17:07:48 (lmgrd) (@lmgrd-SLOG@) ===============================================
+17:07:48 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+17:07:48 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Apr 02 2024 17:07:48 JST
+17:07:48 (lmgrd) (@lmgrd-SLOG@) PID: 5859
+17:07:48 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.18.2.0 build 281478 x64_lsb ( build 281478 (ipv6))
+17:07:48 (lmgrd) (@lmgrd-SLOG@)
+17:07:48 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+17:07:48 (lmgrd) (@lmgrd-SLOG@) Listening port: 27001
+17:07:48 (lmgrd) (@lmgrd-SLOG@)
+17:07:48 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+17:07:48 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+17:07:48 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -z -c /opt/ftx/License/honda.2024.apr.30.lic -l /var/log/ftx/foretify_license.log
+17:07:48 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /opt/ftx/License/honda.2024.apr.30.lic
+17:07:48 (lmgrd) (@lmgrd-SLOG@) ===============================================
+17:07:48 (lmgrd) Starting vendor daemons ...
+17:07:48 (lmgrd) Started foretlx (internet tcp_port 58851 pid 5861)
+17:07:48 (foretlx) FlexNet Licensing version v11.18.2.0 build 281478 x64_lsb
+17:07:48 (foretlx) SLOG: Summary LOG statistics is enabled.
+17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT1
+17:07:48 (foretlx) SLOG: VM Status: 0
+17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT5
+17:07:48 (foretlx) SLOG: TPM Status: 0
+17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT6
 
- 4月 02 17:02:16 hanakawa.co.jp systemd[1]: Started Foretify Manager License server daemon.
 
 
 
