@@ -1,37 +1,33 @@
-14:52:54 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 14:52:54 JST
-14:52:54 (lmgrd) SLOG: Summary LOG statistics is enabled.
-14:52:54 (lmgrd) The license server manager (lmgrd) running as root:
-14:52:54 (lmgrd)        This is a potential security problem
-14:52:54 (lmgrd)        and is not recommended.
-14:52:54 (lmgrd) FlexNet Licensing (v11.14.1.0 build 194335 x64_lsb) started on hanakawa.co.jp (linux) (4/2/2024)
-14:52:54 (lmgrd) Copyright (c) 1988-2016 Flexera Software LLC. All Rights Reserved.
-14:52:54 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
-14:52:54 (lmgrd) License file(s): /usr/local/flexlm/licenses/license.dat
-14:52:54 (lmgrd) lmgrd tcp-port 5280
-14:52:54 (lmgrd) (@lmgrd-SLOG@) ===============================================
-14:52:54 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
-14:52:54 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Apr 02 2024 14:52:54 JST
-14:52:54 (lmgrd) (@lmgrd-SLOG@) PID: 9226
-14:52:54 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.14.1.0 build 194335 x64_lsb ( build 194335 (ipv6))
-14:52:54 (lmgrd) (@lmgrd-SLOG@)
-14:52:54 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
-14:52:54 (lmgrd) (@lmgrd-SLOG@) Listening port: 5280
-14:52:54 (lmgrd) (@lmgrd-SLOG@)
-14:52:54 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
-14:52:54 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
-14:52:54 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -z -c /opt/ftx/License/LCU1803/honda_cadence.lic -l /var/log/ftx/cadence.log
-14:52:54 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /usr/local/flexlm/licenses/license.dat
-14:52:54 (lmgrd) (@lmgrd-SLOG@) ===============================================
-14:52:54 (lmgrd) Starting vendor daemons ...
-14:52:54 (lmgrd) Started cdslmd (internet tcp_port 46653 pid 9227)
-14:52:54 (cdslmd) FlexNet Licensing version v11.13.1.3 build 176483 x64_lsb
-14:52:54 (cdslmd) lmgrd version 11.14, cdslmd version 11.13
-
-14:52:54 (cdslmd) SLOG: Summary LOG statistics is enabled.
-14:52:54 (cdslmd) SLOG: FNPLS-INTERNAL-CKPT1
-14:52:55 (cdslmd) SLOG: VM Status: 0
-14:52:55 (cdslmd) SLOG: FNPLS-INTERNAL-CKPT2
-
-
-
-
+14:10:03 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 14:10:03 JST
+14:10:03 (lmgrd) SLOG: Summary LOG statistics is enabled.
+14:10:03 (lmgrd) The license server manager (lmgrd) running as root:
+14:10:03 (lmgrd)        This is a potential security problem
+14:10:03 (lmgrd)        and is not recommended.
+14:10:03 (lmgrd) FlexNet Licensing (v11.18.2.0 build 281478 x64_lsb) started on hanakawa.co.jp (linux) (4/2/2024)
+14:10:03 (lmgrd) Copyright (c) 1988-2021 Flexera. All Rights Reserved.
+14:10:03 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+14:10:03 (lmgrd) License file(s): /opt/ftx/License/honda.2024.apr.30.lic
+14:10:03 (lmgrd) lmgrd tcp-port 27001
+14:10:03 (lmgrd) (@lmgrd-SLOG@) ===============================================
+14:10:03 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+14:10:03 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Apr 02 2024 14:10:03 JST
+14:10:03 (lmgrd) (@lmgrd-SLOG@) PID: 1040
+14:10:03 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.18.2.0 build 281478 x64_lsb ( build 281478 (ipv6))
+14:10:03 (lmgrd) (@lmgrd-SLOG@)
+14:10:03 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+14:10:03 (lmgrd) (@lmgrd-SLOG@) Listening port: 27001
+14:10:03 (lmgrd) (@lmgrd-SLOG@)
+14:10:03 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+14:10:03 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+14:10:03 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -z -c /opt/ftx/License/honda.2024.apr.30.lic -l var/log/ftx/foretify_license.log
+14:10:03 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /opt/ftx/License/honda.2024.apr.30.lic
+14:10:03 (lmgrd) (@lmgrd-SLOG@) ===============================================
+14:10:03 (lmgrd) Starting vendor daemons ...
+14:10:03 (lmgrd) Started foretlx (internet tcp_port 51675 pid 1058)
+14:10:03 (foretlx) FlexNet Licensing version v11.18.2.0 build 281478 x64_lsb
+14:10:03 (foretlx) Cannot create lock file. Old lockfile exists. errno=13 (/var/tmp/lockforetlx): Permission denied
+14:10:03 (foretlx) EXITING DUE TO SIGNAL 41 Exit reason 9
+14:10:03 (lmgrd) foretlx exited with status 41 (Exited because another server was running)
+14:10:03 (lmgrd) MULTIPLE "foretlx" license server systems running.
+14:10:03 (lmgrd) Please kill, and run lmreread
+14:10:03 (lmgrd)
