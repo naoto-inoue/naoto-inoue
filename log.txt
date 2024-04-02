@@ -1,36 +1,13 @@
-17:07:48 (lmgrd) Server's System Date and Time: Tue Apr 02 2024 17:07:48 JST
-17:07:48 (lmgrd) SLOG: Summary LOG statistics is enabled.
-17:07:48 (lmgrd) The license server manager (lmgrd) running as root:
-17:07:48 (lmgrd)        This is a potential security problem
-17:07:48 (lmgrd)        and is not recommended.
-17:07:48 (lmgrd) FlexNet Licensing (v11.18.2.0 build 281478 x64_lsb) started on hanakawa.co.jp (linux) (4/2/2024)
-17:07:48 (lmgrd) Copyright (c) 1988-2021 Flexera. All Rights Reserved.
-17:07:48 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
-17:07:48 (lmgrd) License file(s): /opt/ftx/License/honda.2024.apr.30.lic
-17:07:48 (lmgrd) lmgrd tcp-port 27001
-17:07:48 (lmgrd) (@lmgrd-SLOG@) ===============================================
-17:07:48 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
-17:07:48 (lmgrd) (@lmgrd-SLOG@) Start-Date: Tue Apr 02 2024 17:07:48 JST
-17:07:48 (lmgrd) (@lmgrd-SLOG@) PID: 5859
-17:07:48 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.18.2.0 build 281478 x64_lsb ( build 281478 (ipv6))
-17:07:48 (lmgrd) (@lmgrd-SLOG@)
-17:07:48 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
-17:07:48 (lmgrd) (@lmgrd-SLOG@) Listening port: 27001
-17:07:48 (lmgrd) (@lmgrd-SLOG@)
-17:07:48 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
-17:07:48 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
-17:07:48 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -z -c /opt/ftx/License/honda.2024.apr.30.lic -l /var/log/ftx/foretify_license.log
-17:07:48 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  /opt/ftx/License/honda.2024.apr.30.lic
-17:07:48 (lmgrd) (@lmgrd-SLOG@) ===============================================
-17:07:48 (lmgrd) Starting vendor daemons ...
-17:07:48 (lmgrd) Started foretlx (internet tcp_port 58851 pid 5861)
-17:07:48 (foretlx) FlexNet Licensing version v11.18.2.0 build 281478 x64_lsb
-17:07:48 (foretlx) SLOG: Summary LOG statistics is enabled.
-17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT1
-17:07:48 (foretlx) SLOG: VM Status: 0
-17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT5
-17:07:48 (foretlx) SLOG: TPM Status: 0
-17:07:48 (foretlx) SLOG: FNPLS-INTERNAL-CKPT6
+SERVER hanakawa.co.jp 683e269c8ee8 27001
+VENDOR foretlx /opt/ftx/License/FManager_lic_server/foretlx
+USE_SERVER
+FEATURE FTX_DEVELOPER foretlx 1.0 30-apr-2024 2 SIGN="0006 1FB1 6ED1 \
+	7C51 6E91 B12F 60D5 2300 D973 1793 3C4B F485 3CA4 F4BF 73EA"
+FEATURE FTX_RUNTIME foretlx 1.0 30-apr-2024 3 SIGN="00FE 736A 63C9 \
+	128B ED8F 5EF1 EA55 A000 1FDB F43A 15B8 4165 5FD0 8813 5651"
+FEATURE FORETIFY_VSUITE_ADAS foretlx 1.0 30-apr-2024 3 SIGN="0022 \
+	A659 A683 8A0A 5ACB A22D 74B6 6600 DDA6 6661 0B33 B771 9410 \
+	8BD5 7BC9"
 
 
 
