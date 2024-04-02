@@ -1,7 +1,6 @@
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Welcome to Specman Elite(64) (18.09.001-s Build 409)  -  Linked on Mon Sep 17 16:10:52 2018
 
-Non-authoritative answer:
-Name:	hanakawa.co.jp
-Address: 210.188.227.246
+
+**** Fatal error - leaving Specman:
+Specman Elite: Couldn't acquire license - Failed to check out license   
 
