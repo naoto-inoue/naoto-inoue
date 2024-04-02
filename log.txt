@@ -1,6 +1,8 @@
-Welcome to Specman Elite(64) (18.09.001-s Build 409)  -  Linked on Mon Sep 17 16:10:52 2018
+ate: 2024 Apr 02 16:28:13
+[INFO] [MAIN] Foretify version: 24.01.0.14
+[INFO] [MAIN] Checking license...
+[ERROR] [MAIN] License server error: Can't Connect to License Server (-15,3002) (Connect timed out)
+[ERROR] [MAIN] Foretify license error: Failed to checkout FTX_DEVELOPER
+[INFO] [MAIN]     Foretify log can be found at: /home/nvidia/foretify/logs/20240402_162813_10026_LI0A.log
 
-
-**** Fatal error - leaving Specman:
-Specman Elite: Couldn't acquire license - Failed to check out license   
 
