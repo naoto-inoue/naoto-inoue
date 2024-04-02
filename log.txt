@@ -1,17 +1,9 @@
-[Unit]
-Description=Foretify Manager License server daemon
-After=syslog.target
-After=network.target
+$ sudo apt install -y lsb-core ksh tcsh
+$ sudo dpkg-reconfigure dash
+$ sudo dpkg --add-architecture i386
+$ sudo apt-get update
+$ sudo apt install -y libx11-6:i386 libncurses5:i386
 
-[Service]
-Type=simple
-ExecStart=/opt/ftx/License/FManager_lic_server/lmgrd -z -c /opt/ftx/License/honda.2024.apr.30.lic -l var/log/ftx/foretify_license.log
-SuccessExitStatus=15
-Restart=always
-RestartSec=30s
-
-[Install]
-WantedBy=multi-user.target
 
 
 
