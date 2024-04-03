@@ -1,0 +1,15 @@
+export CDS_LIC_FILE=5280@localhost
+#export CDS_LIC_FILE=5280@210.188.227.246
+export INCISIVE_HOME=/opt/ftx/XCELIUM1809
+export SPECMAN_PATH=${INCISIVE_HOME}/tools/bin
+export CDS_INST_DIR=${INCISIVE_HOME}
+export CDS_AUTO_64BIT=ALL
+export CDS_LIC_QUEUE_POLL=1
+export CDS_LIC_QUEUE_POLL_INT=10
+export PATH=$PATH:${INCISIVE_HOME}/bin:${INCISIVE_HOME}/tools/bin
+export FTX=/opt/ftx/foretify
+export FTX_LIC_FILE=27001@localhost
+#export FTX_LIC_FILE=27001@210.188.227.246
+source ${FTX}/bin/ftx_setup.sh
+
+
