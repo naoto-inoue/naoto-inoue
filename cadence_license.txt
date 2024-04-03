@@ -1,0 +1,15 @@
+[Unit]
+Description=Cadence License server daemon
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/ftx/License/LCU1803/tools.lnx86/bin/64bit/lmgrd -z -c /opt/ftx/License/LCU1803/honda_cadence.lic -l /var/log/ftx/cadence.log
+SuccessExitStatus=15
+Restart=always
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
+
