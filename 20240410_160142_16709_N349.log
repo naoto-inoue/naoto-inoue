@@ -1,0 +1,6 @@
+Date: 2024 4月 10 16:01:42
+[INFO] [MAIN] Foretify version: 24.01.0.14
+[INFO] [MAIN] Checking license...
+[ERROR] [MAIN] License server error: Can't Connect to License Server (-15,3002) (Connect timed out)
+[ERROR] [MAIN] Foretify license error: Failed to checkout FTX_DEVELOPER
+[INFO] [MAIN]     Foretify log can be found at: /home/nvidia/foretify/logs/20240410_160142_16709_N349.log
