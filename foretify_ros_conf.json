@@ -1,0 +1,9 @@
+{
+  "direction": "down",
+  "type": "topic",
+  "definition": "$FTX/tool/message_bridge/user_ws/src/foretify_ros/msg/Gear.msg",
+  "address": "/foretify_gear",
+  "initialPublishDelayMs": 0,
+  "struct": "foretify_ros_struct",
+  "event": "emit_foretify_to_ros"
+}
