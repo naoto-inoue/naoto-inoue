@@ -1,3 +1,0 @@
-HostName=hanakawa.co.jp
-DomainName=co.jp
-IPAddress=192.168.30.103
